@@ -17,7 +17,8 @@ const MAX_RECONNECT_DELAY_MS = 30000;
 function realtimeUrl(): string | null {
   const base = process.env.NEXT_PUBLIC_API_URL;
   if (!base) return null;
-  return `${base}/ws/orders/`;
+  // Browsers require ws:// or wss:// schemes for WebSocket — never http(s).
+  return `${base.replace(/^http/, "ws").replace(/\/+$/, "")}/ws/orders/`;
 }
 
 class StoreSocket {
