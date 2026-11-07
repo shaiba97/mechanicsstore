@@ -1,6 +1,6 @@
 import { NextRequest } from "next/server";
 
-const BACKEND_BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+const BACKEND_BASE = process.env.NEXT_PUBLIC_API_URL ?? "https://mechanicsbackend.onrender.com";
 const ALLOWED_RESOURCES = new Set([
   "login",
   "register",

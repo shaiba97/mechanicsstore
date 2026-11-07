@@ -4,7 +4,7 @@ const ITEM_PATH = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-
 const FORWARDED_METHODS = new Set(["GET", "POST", "PATCH", "DELETE"]);
 const MAX_BODY_BYTES = 9 * 1024 * 1024;
 const UPSTREAM_TIMEOUT_MS = 15000;
-const DEFAULT_BACKEND_URL = "http://localhost:8000";
+const DEFAULT_BACKEND_URL = "https://mechanicsbackend.onrender.com";
 
 function resolveBaseUrl(): URL {
   const raw = process.env.NEXT_PUBLIC_API_URL ?? DEFAULT_BACKEND_URL;

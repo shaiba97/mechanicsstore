@@ -16,7 +16,7 @@ const ALLOWED_ROOTS = new Set([
 const FORWARDED_METHODS = new Set(["GET", "POST", "PATCH", "DELETE", "PUT"]);
 const MAX_BODY_BYTES = 10 * 1024 * 1024;
 const UPSTREAM_TIMEOUT_MS = 30000;
-const DEFAULT_BACKEND_URL = "http://localhost:8000";
+const DEFAULT_BACKEND_URL = "https://mechanicsbackend.onrender.com";
 
 function resolveBaseUrl(): URL {
   const raw = process.env.NEXT_PUBLIC_API_URL ?? DEFAULT_BACKEND_URL;

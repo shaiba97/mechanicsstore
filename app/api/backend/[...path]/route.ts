@@ -4,7 +4,7 @@ const ALLOWED_RESOURCES = new Set(["brands", "cars", "categories"]);
 const SEGMENT_PATTERN = /^[a-zA-Z0-9_-]{1,64}$/;
 const MAX_QUERY_LENGTH = 1024;
 const UPSTREAM_TIMEOUT_MS = 15000;
-const DEFAULT_BACKEND_URL = "http://localhost:8000";
+const DEFAULT_BACKEND_URL = "https://mechanicsbackend.onrender.com";
 
 function resolveBaseUrl(): URL {
   const raw = process.env.NEXT_PUBLIC_API_URL ?? DEFAULT_BACKEND_URL;
