@@ -30,7 +30,7 @@ export function AuthLayout({
           </span>
           <div className="leading-tight">
             <p className="text-base font-black text-foreground">
-              {t({ ar: "ميكانيكا", en: "Mechanics" })}
+              {t({ ar: "أفيرو", en: "Avero" })}
             </p>
             <p className="text-[11px] font-bold text-muted-foreground">
               {t({ ar: "بوابة المتاجرة", en: "Store Portal" })}

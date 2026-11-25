@@ -10,12 +10,12 @@ const sections: LegalSection[] = [
     body: [
       {
         ar:
-          "هذه الشروط والأحكام ت govern استخدام منصة ميكانيكا لقطع الغيار automotiven («المنصة») من قبل التجار («المتجر») الراغبين في عرض وبيع قطع الغيار الخاصة بالسيارات في المملكة العربية السعودية.",
+          "هذه الشروط والأحكام ت governance استخدام منصة أفيرو لقطع الغيار («المنصة») من قبل التجار («المتجر») الراغبين في عرض وبيع قطع الغيار الخاصة بالسيارات في المملكة العربية السعودية.",
         en:
-          "These Terms of Use govern the use of the Mechanics Spare Parts Platform («the Platform») by merchants («the Store») wishing to list and sell automotive spare parts in the Kingdom of Saudi Arabia.",
+          "These Terms of Use govern the use of the Avero Spare Parts Platform («the Platform») by merchants («the Store») wishing to list and sell automotive spare parts in the Kingdom of Saudi Arabia.",
       },
       {
-        ar: "بإنشاء حساب المتجر والموافقة على هذه الشروط، يلتزم المتجر بجميع الأحكام الواردة أدناه، بما في ذلك سياسات الخصوصية和平台 العمولة.",
+        ar: "بإنشاء حساب المتجر والموافقة على هذه الشروط، يلتزم المتجر بجميع الأحكام الواردة أدناه، بما في ذلك سياسة الخصوصية وسياسة العمولة.",
         en:
           "By creating a store account and accepting these terms, the Store agrees to all provisions below, including the Privacy Policy and platform commission rules.",
       },
@@ -44,12 +44,12 @@ const sections: LegalSection[] = [
     body: [
       {
         ar:
-          "يجب على المتجرholding السجل التجاري (CR) ساري المفعول يتكون من 10 أرقام، والتسجيل في ضريبة القيمة المضافة (ZATCA) برقم ضريبي مكون من 15 رقماً، وإصدار الفواتير الإلكترونية وفقاً لأنظمة المملكة.",
+          "يجب على المتجر الحصول على السجل التجاري (CR) ساري المفعول يتكون من 10 أرقام، والتسجيل في ضريبة القيمة المضافة (ZATCA) برقم ضريبي مكون من 15 رقماً، وإصدار الفواتير الإلكترونية وفقاً لأنظمة المملكة.",
         en:
           "The Store must hold a valid Commercial Registration (CR) of 10 digits, register for ZATCA VAT with a 15-digit tax number, and issue electronic invoices in accordance with KSA regulations.",
       },
       {
-        ar: "يتحمل المتجر مسؤولية تجديد تراخيصه وضبطه 운영 وفقاً لأنظمة التجارة السعودية وقوانين حماية المستهلك.",
+        ar: "يتحمل المتجر مسؤولية تجديد تراخيصه وضبط عمله وفقاً لأنظمة التجارة السعودية وقوانين حماية المستهلك.",
         en:
           "The Store is responsible for renewing its licenses and operating in accordance with Saudi trade laws and consumer protection regulations.",
       },
@@ -79,12 +79,12 @@ const sections: LegalSection[] = [
     body: [
       {
         ar:
-          "يلتزم سائق المتجر بجمع رمز الت확يك (OTP) المكون من 4 أرقام من العميل وتسليمه إلى المنصة قبل أن يصبح المبلغ مؤهلاً للدفع.",
+          "يلتزم سائق المتجر بجمع رمز المصادقة (OTP) المكون من 4 أرقام من العميل وتسليمه إلى المنصة قبل أن يصبح المبلغ مؤهلاً للدفع.",
         en:
           "The Store driver must collect the customer's 4-digit OTP code and submit it to the Platform before the amount becomes eligible for payout.",
       },
       {
-        ar: "بدون تقديم رمز OTP صالح، لا يعتبر الطلب مسَلَماً ولا يستحق المتجر الدفعة المقابلة.",
+        ar: "بدون تقديم رمز OTP صالح، لا يعتبر الطلب مسلوباً ولا يستحق المتجر الدفعة المقابلة.",
         en:
           "Without a valid OTP, the order is not considered delivered and the Store is not entitled to the corresponding payout.",
       },

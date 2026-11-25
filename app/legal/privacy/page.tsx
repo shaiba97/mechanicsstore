@@ -10,12 +10,12 @@ const sections: LegalSection[] = [
     body: [
       {
         ar:
-          "تشرح سياسة الخصوصية هذه كيف تقوم منصة ميكانيكا لقطع الغيار بجمع واستخدام وحماية وحفظ بيانات التجار («المتجر») في المملكة العربية السعودية.",
+          "تشرح سياسة الخصوصية هذه كيف تقوم منصة أفيرو لقطع الغيار بجمع واستخدام وحماية وحفظ بيانات التجار («المتجر») في المملكة العربية السعودية.",
         en:
           "This Privacy Policy explains how the Mechanics Spare Parts Platform collects, uses, protects, and retains merchant data («the Store») in the Kingdom of Saudi Arabia.",
       },
       {
-        ar: "بإنشاء حساب المتجر، فإنك توافق على جمع ومعالجة بياناتك وفقاً لهذه السياسة ونظام حماية البيانات الشخصية (PDPL).",
+        ar: "بإنشاء حساب المتجر، فإنك توافق على جمع ومعالجة بياناتك وفقاً لهذه السياسة ونظام حماية البيانات السعودية (PDPL).",
         en:
           "By creating a store account, you agree to the collection and processing of your data in accordance with this policy and the Personal Data Protection Law (PDPL).",
       },
@@ -44,7 +44,7 @@ const sections: LegalSection[] = [
     body: [
       {
         ar:
-        "تجمع المنصة معلومات الكيان التجاري (اسم المتجر، السجل التجاري، رقم الضريبة)، وموقع المستودع الفعلي (الإحداثيات)، وتفاصيل الحساب البنكي اللازمة لمعالجة المدفوعات عبر مada أو Stripe أو Moyasar.",
+          "تجمع المنصة معلومات الكيان التجاري (اسم المتجر، السجل التجاري، رقم الضريبة)، وموقع المستودع الفعلي (الإحداثيات)، وتفاصيل الحساب البنكي اللازمة لمعالجة المدفوعات عبر نقاط الدفع المحددة.",
         en:
         "The Platform collects business entity information (store name, CR, tax number), physical warehouse location coordinates, and bank details required for payment processing via Mada, Stripe, or Moyasar.",
       },
@@ -68,7 +68,7 @@ const sections: LegalSection[] = [
     body: [
       {
         ar:
-          "يحق للمتجر الوصول إلى بياناته، طلب تصحيحها، أو طلب حذفها وفقاً لأنظمة PDPL، باستثناء البيانات التي يتعين على المنصة الاحتفاظ بها للامتثال الضريبي أو التنظيمي.",
+          "يحق للمتجر الوصول إلى بياناته، طلب تصحيحها، أو طلب حذفها وفقاً لأنظمة الحماية السعودية، باستثناء البيانات التي يتعين على المنصة الاحتفاظ بها للامتثال الضريبي أو التنظيمي.",
         en:
         "The Store has the right to access its data, request correction, or request deletion in accordance with PDPL, except data the Platform must retain for tax or regulatory compliance.",
       },
