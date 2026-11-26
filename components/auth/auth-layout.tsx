@@ -1,9 +1,9 @@
 "use client";
 
 import * as React from "react";
-import { Wrench } from "lucide-react";
 import { LocaleToggle } from "@/components/locale-toggle";
 import { useLocale } from "@/hooks/use-locale";
+import { AveroLogo } from "@/components/avero-logo";
 
 export function AuthLayout({
   title,
@@ -16,7 +16,7 @@ export function AuthLayout({
   children: React.ReactNode;
   footer: React.ReactNode;
 }) {
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-background p-4">
@@ -25,10 +25,10 @@ export function AuthLayout({
           <LocaleToggle />
         </div>
         <div className="mb-6 flex items-center justify-center gap-3">
-          <span className="flex size-11 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-sm">
-            <Wrench className="size-5" aria-hidden />
-          </span>
-          <div className="leading-tight">
+          <div className="flex items-center justify-center rounded-xl bg-primary p-2 text-primary-foreground shadow-sm">
+            <AveroLogo variant="mark" size="lg" />
+          </div>
+          <div className="leading-tight text-right">
             <p className="text-base font-black text-foreground">
               {t({ ar: "أفيرو", en: "Avero" })}
             </p>

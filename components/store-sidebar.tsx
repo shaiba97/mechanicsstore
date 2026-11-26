@@ -17,6 +17,7 @@ import { useLocale } from "@/hooks/use-locale";
 import { useStoreData, type SectionId } from "@/components/store-data-provider";
 import { fetchStoreProfile } from "@/lib/store";
 import type { Bilingual } from "@/lib/i18n";
+import { AveroLogo } from "./avero-logo";
 
 export const NAV_ITEMS: {
   id: SectionId;
@@ -90,13 +91,9 @@ export function StoreSidebar({ className }: { className?: string }) {
       aria-label="Store navigation"
     >
       <div className="mb-4 flex items-center gap-2.5 px-2 pt-1">
-        <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-sidebar-accent text-sm font-black text-white">
-          ر
-        </span>
+        <AveroLogo variant="mark" size="md" inverted className="shrink-0 size-9" />
         <span className="min-w-0">
-<span className="block truncate text-sm font-bold text-white">
-              {t({ ar: "متجرك", en: "Your Store" })}
-            </span>
+          <AveroLogo variant="wordmark" size="sm" locale={locale} inverted />
           <span className="block text-[11px] font-medium text-indigo-200">
             {locale === "ar" ? "لوحة التاجر" : "Merchant Dashboard"}
           </span>
